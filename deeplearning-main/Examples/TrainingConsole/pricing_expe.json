@@ -1,0 +1,14 @@
+{
+    "network description": "pricing_network.json",
+    "training data": "pricing_training.csv",
+    "validation data": "pricing_validation.csv",
+    "epochs": 1000,
+    "trained network": "pricing_learned.json",
+    "cost function": "Quadratic",
+    "initialize": true,
+    "learning log file": "pricing_error.csv",
+    "validation steps": 20,
+    "final validation": "pricing_final_validation.csv",
+    "activation file": "pricing_activation.csv",
+    "gnuplot": true   
+}

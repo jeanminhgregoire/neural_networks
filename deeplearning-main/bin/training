@@ -1,0 +1,3 @@
+#!/bin/sh
+
+java -jar $HOME/.m2/repository/fr/ensimag/neuralnet/1.0-SNAPSHOT/neuralnet-1.0-SNAPSHOT-jar-with-dependencies.jar $@

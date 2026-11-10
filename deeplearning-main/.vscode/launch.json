@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PricingFromFile",
+            "request": "launch",
+            "mainClass": "fr.ensimag.deep.examples.PricingFromFile",
+            "projectName": "neuralnet"
+        },
+        {
+            "type": "java",
+            "name": "And",
+            "request": "launch",
+            "mainClass": "fr.ensimag.deep.examples.And",
+            "projectName": "neuralnet",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "And from file",
+            "request": "launch",
+            "mainClass": "fr.ensimag.deep.examples.AndFromFile",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Training Console And",
+            "request": "launch",
+            "mainClass": "fr.ensimag.deep.trainingConsole.Main",
+            "args": "-x pricing_expe.json",
+            "cwd": "${workspaceFolder}/Examples/TrainingConsole"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]        
+}

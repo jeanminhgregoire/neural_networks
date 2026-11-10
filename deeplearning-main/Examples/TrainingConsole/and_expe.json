@@ -1,0 +1,14 @@
+{
+    "network description": "and_network.json",
+    "training data" : "and.csv",
+    "validation data" : "and.csv",
+    "epochs" : 200,
+    "trained network" : "and_learned.json",
+    "cost function" : "Quadratic",
+    "initialize" : true,
+    "learning log file" : "error.csv",
+    "validation steps" : 20,
+    "final validation" : "validation.csv",
+    "activation file" : "activation.csv",
+    "gnuplot" : true   
+}

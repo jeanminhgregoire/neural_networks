@@ -1,0 +1,55 @@
+{
+  "InputSize": 7,
+  "BatchSize": 100,
+  "Initializer": "He",
+  "Layers": [
+    {
+      "Size": 128,
+      "ActivatorType": "LeakyRelu",
+      "Type": "Standard",
+      "GradientAdjustmentParameters": {
+        "Type": "Adam",
+        "StepSize": 0.001,
+        "FirstMomentDecay": 0.9,
+        "SecondMomentDecay": 0.999,
+        "DenominatorFactor": 1e-8
+      }
+    },
+    {
+      "Size": 64,
+      "ActivatorType": "LeakyRelu",
+      "Type": "Standard",
+      "GradientAdjustmentParameters": {
+        "Type": "Adam",
+        "StepSize": 0.001,
+        "FirstMomentDecay": 0.9,
+        "SecondMomentDecay": 0.999,
+        "DenominatorFactor": 1e-8
+      }
+    },
+    {
+      "Size": 32,
+      "ActivatorType": "LeakyRelu",
+      "Type": "Standard",
+      "GradientAdjustmentParameters": {
+        "Type": "Adam",
+        "StepSize": 0.001,
+        "FirstMomentDecay": 0.9,
+        "SecondMomentDecay": 0.999,
+        "DenominatorFactor": 1e-8
+      }
+    },
+    {
+      "Size": 1,
+      "ActivatorType": "Identity",
+      "Type": "Standard",
+      "GradientAdjustmentParameters": {
+        "Type": "Adam",
+        "StepSize": 0.001,
+        "FirstMomentDecay": 0.9,
+        "SecondMomentDecay": 0.999,
+        "DenominatorFactor": 1e-8
+      }
+    }
+  ]
+}

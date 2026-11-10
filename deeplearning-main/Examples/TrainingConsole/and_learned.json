@@ -1,0 +1,26 @@
+{
+  "InputSize" : 2,
+  "BatchSize" : 2,
+  "Initializer" : "XavierInitializer",
+  "Layers" : [ {
+    "Size" : 2,
+    "ActivatorType" : "LeakyRelu",
+    "GradientAdjustmentParameters" : {
+      "Type" : "FixedLearningRate",
+      "LearningRate" : 0.01
+    },
+    "Type" : "StandardLayer",
+    "Bias" : [ 0.9467577845271236, -1.2040753364787893 ],
+    "Weights" : [ [ -0.04854177692757092, 0.0211792779389326 ], [ -0.02404548290829155, -0.024513154090488386 ] ]
+  }, {
+    "Size" : 1,
+    "ActivatorType" : "LeakyRelu",
+    "GradientAdjustmentParameters" : {
+      "Type" : "FixedLearningRate",
+      "LearningRate" : 0.01
+    },
+    "Type" : "StandardLayer",
+    "Bias" : [ 0.5164596968155991 ],
+    "Weights" : [ [ -0.2111162491496455 ], [ -0.025126698528865538 ] ]
+  } ]
+}
